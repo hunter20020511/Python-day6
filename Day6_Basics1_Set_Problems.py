@@ -16,3 +16,7 @@ if common1:   #Checking if common elemnets in alist exists and printing them
     print("Common values exists which are: ", common1)
 else:
     print("No common values exists in both lists")
+
+
+text="programming"
+print(set(text))
