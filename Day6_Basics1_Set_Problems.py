@@ -18,5 +18,12 @@ else:
     print("No common values exists in both lists")
 
 
-text="programming"
-print(set(text))
+text="programming"  
+print(set(text)) #Printing the unique letters in a string using set
+
+text2="He is a nice guy"
+
+words=text2.lower().split()
+unique_words=set(words)
+
+print("Total unique words are: ", len(unique_words), "\n" "which are",unique_words )
