@@ -18,3 +18,23 @@ print("Elements either present in a or b",symmetric_differnece)
 
 symmetric_differnece_formula=(a-b)|(b-a)
 print(symmetric_differnece_formula)
+
+
+s1={20,40,30}
+s1.add(50)
+print(s1)
+
+s1.add(50) #Even though we added 50, in the output two 50's were not present as sets have unique elements
+print(s1)
+
+s1.remove(50) #Removing 50 from the set
+print(s1)
+
+s1.remove(50)
+print(s1) #Here we get an key error because 50 is not present in the set
+
+s1.discard(40)
+print(s1)
+
+s1.discard(40)
+print(s1) #Even though 40 is not present in the set it doesnt throws an error
