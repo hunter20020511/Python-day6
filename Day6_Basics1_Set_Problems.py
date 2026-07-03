@@ -26,4 +26,4 @@ text2="He is a nice guy"
 words=text2.lower().split()
 unique_words=set(words)
 
-print("Total unique words are: ", len(unique_words), "\n" "which are",unique_words )
+print("Total unique words are: ", len(unique_words), "\n" "Which are",unique_words )
